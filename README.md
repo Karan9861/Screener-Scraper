@@ -25,7 +25,8 @@ warnings: Used to suppress warning messages during the execution of the scraper.
 - openpyxl (version 3.1.2): Required for working with Excel files in Python.
 - msedge-selenium-tools (version 3.141.4): Provides the necessary tools for web scraping using the Microsoft Edge browser.
 Make sure to have these packages installed and their respective versions compatible with the scraper code for smooth execution.
-
+####
 NOTE: It also requires to download the Microsoft Edge WebDriver executable suitable for your operating system and browser version. The WebDriver allows Selenium to communicate with the Microsoft Edge browser. Make sure to download the appropriate version of the WebDriver and add its location to your system’s PATH variable. This driver must be present in the same directory as where the jupyter notebook is open. The current version utilized in the scraper is: Version: 114.0.1823.79
 Stable internet connection is must for the scraper.
+
 KEY NOTE: Initial login to screener from the browser (Microsoft Edge) is must for scraper. Screener requires an account login to display the complete data.

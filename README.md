@@ -14,16 +14,16 @@ The purpose of the scrapers developed is to extract financial and business-relat
 ## REQUIREMENTS
 
 The data collection process in the provided scraper for “saverisk.com” requires the following packages and their respective versions:
-•	warnings: Used to suppress warning messages during the execution of the scraper.
-•	os: Provides functionality for interacting with the operating system, such as creating directories and checking file existence.
-•	time: Used for introducing delays during the scraping process to ensure proper page loading.
-•	pandas (version 2.0.0): Used for data manipulation and storage in DataFrames.
-•	numpy (version 1.23.5): Required for numerical operations and array manipulation.
-•	requests (version 2.28.2): Enables sending HTTP requests to retrieve web pages’ content.
-•	xlsxwriter (version 3.1.2): Used for writing data to Excel files.
-•	beautifulsoup4 (version 4.12.2): A library for web scraping, used for parsing HTML and extracting data from web pages.
-•	openpyxl (version 3.1.2): Required for working with Excel files in Python.
-•	msedge-selenium-tools (version 3.141.4): Provides the necessary tools for web scraping using the Microsoft Edge browser.
+warnings: Used to suppress warning messages during the execution of the scraper.
+- os: Provides functionality for interacting with the operating system, such as creating directories and checking file existence.
+- time: Used for introducing delays during the scraping process to ensure proper page loading.
+- pandas (version 2.0.0): Used for data manipulation and storage in DataFrames.
+- numpy (version 1.23.5): Required for numerical operations and array manipulation.
+- requests (version 2.28.2): Enables sending HTTP requests to retrieve web pages’ content.
+- xlsxwriter (version 3.1.2): Used for writing data to Excel files.
+- beautifulsoup4 (version 4.12.2): A library for web scraping, used for parsing HTML and extracting data from web pages.
+- openpyxl (version 3.1.2): Required for working with Excel files in Python.
+- msedge-selenium-tools (version 3.141.4): Provides the necessary tools for web scraping using the Microsoft Edge browser.
 Make sure to have these packages installed and their respective versions compatible with the scraper code for smooth execution.
 
 NOTE: It also requires to download the Microsoft Edge WebDriver executable suitable for your operating system and browser version. The WebDriver allows Selenium to communicate with the Microsoft Edge browser. Make sure to download the appropriate version of the WebDriver and add its location to your system’s PATH variable. This driver must be present in the same directory as where the jupyter notebook is open. The current version utilized in the scraper is: Version: 114.0.1823.79
